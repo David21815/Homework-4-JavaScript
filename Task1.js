@@ -4,7 +4,7 @@ let n = 3;
 let faktoriel = 1;
 
 do {
-  faktoriel = faktoriel * n;
+  faktoriel *= n;
   n--;
 }
 while (n > 0);
